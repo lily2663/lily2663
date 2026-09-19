@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="340" viewBox="0 0 960 340" role="img" aria-labelledby="title desc">
+  <title id="title">Lily 2663 profile card</title>
+  <desc id="desc">A light cartographic profile card for Lily, maker of LilyMap and the lily-epitaph Hugo theme.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fbf9"/>
+      <stop offset="0.62" stop-color="#edf8f4"/>
+      <stop offset="1" stop-color="#e4f2ec"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f4c95d" stop-opacity="0.44"/>
+      <stop offset="0.58" stop-color="#f4c95d" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#f4c95d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#b7791f"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#0f766e" stroke-opacity="0.065" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="8"/></filter>
+    <clipPath id="card"><rect x="4" y="4" width="952" height="332" rx="28"/></clipPath>
+  </defs>
+
+  <rect x="4" y="4" width="952" height="332" rx="28" fill="url(#background)" stroke="#a7d6ca" stroke-width="1.5"/>
+  <g clip-path="url(#card)">
+    <rect x="4" y="4" width="952" height="332" fill="url(#grid)"/>
+    <circle cx="824" cy="40" r="150" fill="url(#sun)" filter="url(#softGlow)"/>
+    <g fill="none" stroke="#0f766e" stroke-opacity="0.12" stroke-width="1.2">
+      <path d="M600 44 C684 17 748 27 805 79 C861 130 898 133 973 101"/>
+      <path d="M571 70 C665 37 743 54 794 101 C850 152 907 165 984 124"/>
+      <path d="M558 101 C660 60 737 77 789 126 C844 177 913 193 988 149"/>
+      <path d="M574 132 C663 95 735 103 791 151 C850 201 911 219 976 188"/>
+      <path d="M613 163 C686 138 747 134 803 177 C850 213 907 242 969 226"/>
+      <path d="M651 196 C719 177 764 177 818 211 C862 239 904 268 956 270"/>
+    </g>
+    <g transform="translate(816 100)" fill="none" stroke="#a86f19" stroke-width="1.5" stroke-opacity="0.68">
+      <path d="M0 21 C-34 1 -33 -35 0 -52 C33 -35 34 1 0 21Z"/>
+      <path d="M0 21 C34 1 33 -35 0 -52 C-33 -35 -34 1 0 21Z" transform="rotate(72)"/>
+      <path d="M0 21 C34 1 33 -35 0 -52 C-33 -35 -34 1 0 21Z" transform="rotate(144)"/>
+      <path d="M0 21 C34 1 33 -35 0 -52 C-33 -35 -34 1 0 21Z" transform="rotate(216)"/>
+      <path d="M0 21 C34 1 33 -35 0 -52 C-33 -35 -34 1 0 21Z" transform="rotate(288)"/>
+      <circle r="8" fill="#d39a2d" fill-opacity="0.18"/>
+    </g>
+    <path d="M50 267 C188 242 251 291 390 264 C499 243 573 272 690 252" fill="none" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.72"/>
+    <circle cx="50" cy="267" r="4" fill="#0f766e"/>
+    <circle cx="390" cy="264" r="4" fill="#31877e"/>
+    <circle cx="690" cy="252" r="4" fill="#b7791f"/>
+  </g>
+
+  <g font-family="Segoe UI, Helvetica Neue, sans-serif">
+    <text x="52" y="58" fill="#277e76" font-size="13" font-weight="600" letter-spacing="4">FIELD NOTE · 02663</text>
+    <text x="50" y="126" fill="#102a2a" font-size="55" font-weight="700" letter-spacing="1">LILY / 2663</text>
+    <rect x="51" y="143" width="144" height="3" rx="1.5" fill="url(#accent)"/>
+    <text x="51" y="181" fill="#385b57" font-size="20">mapping ideas into thoughtful software</text>
+    <text x="51" y="215" fill="#68827f" font-size="15">HUGO THEMES  ·  LOCAL-FIRST TOOLS  ·  SECURITY CURIOSITY</text>
+    <g font-size="12" font-weight="600" letter-spacing="1">
+      <rect x="51" y="286" width="112" height="30" rx="15" fill="#e1f3ee" stroke="#8fc9bd"/>
+      <text x="107" y="306" fill="#0f766e" text-anchor="middle">LILYMAP</text>
+      <rect x="174" y="286" width="144" height="30" rx="15" fill="#e1f3ee" stroke="#8fc9bd"/>
+      <text x="246" y="306" fill="#0f766e" text-anchor="middle">LILY EPITAPH</text>
+      <rect x="329" y="286" width="99" height="30" rx="15" fill="#f8efd8" stroke="#ddc47c"/>
+      <text x="378.5" y="306" fill="#936214" text-anchor="middle">OPEN WEB</text>
+    </g>
+    <text x="908" y="294" fill="#78918e" font-size="12" text-anchor="end" letter-spacing="1">LOCAL / FIRST / OPEN</text>
+    <text x="908" y="314" fill="#3d706a" font-size="13" text-anchor="end">lily2663.top</text>
+  </g>
+</svg>
