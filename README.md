@@ -14,7 +14,7 @@
 
 ## Hello, map reader
 
-我是 Lily。写博客，也给博客写工具；喜欢把零散的想法整理成安静、可靠、可以长期维护的作品。
+Hello,I'lily.
 
 I build at the intersection of **personal publishing**, **playful interfaces**, and **security curiosity**. Most days, that means shaping Hugo themes, small Node.js tools, and experiments that make the web feel a little more personal.
 
